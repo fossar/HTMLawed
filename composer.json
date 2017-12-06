@@ -17,6 +17,9 @@
     "require":{
         "php":">4.4.0"
     },
+    "replace":{
+        "htmlawed/htmlawed": "*"
+    },
      "autoload": {
         "files": ["htmLawed.php"]
     }
