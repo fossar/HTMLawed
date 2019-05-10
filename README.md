@@ -1,4 +1,4 @@
-This is a fork of [kesar/HTMLawed](https://github.com/kesar/HTMLawed) mainly to be able to handle changes faster than in upstream.
+This is a fork of [kesar/HTMLawed](https://github.com/kesar/HTMLawed) mainly to be able to handle changes faster than in upstream. And we contribute back to the upstream from time to time.
 
 People from [selfoss](https://selfoss.aditu.de/) & [wallabag](https://www.wallabag.org/en) maintain it and improve it.
 
