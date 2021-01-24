@@ -519,7 +519,7 @@ foreach($aA as $k=>$v){
    $v = str_replace("­", ' ', (strpos($v, '&') !== false ? str_replace(array('&#xad;', '&#173;', '&shy;'), ' ', $v) : $v)); # double-quoted char: soft-hyphen; appears here as "­" or hyphen or something else depending on viewing software
    if($k == 'srcset'){
     $v2 = '';
-    $pattern = "/(?:[^\"'\s]+\s*(?:\d+[wx])+)/";
+    $pattern = "/(?:[^\"'\s]+\s*(?:\d+w|\d+(?:\.\d+)?x)+)/";
     preg_match_all($pattern, $v, $matches);
     $matches = call_user_func_array('array_merge', $matches);
     foreach($matches as $k1=>$v1){
